@@ -1,8 +1,6 @@
-# GLAUKS: Mapeamento e Gestão Digital para Biblioteca Escolar (MOBILE)
+# `GLAUKS: Mapeamento e Gestão Digital para Biblioteca Escolar (MOBILE)`
 
-<img src="telas/logo.png" alt="Logo GLAUKS" width="300px" padding-left/>
-
----
+<img src="telas/glauks.png" alt="Logo GLAUKS" width="250px"/>
 
 > **Trabalho de Conclusão de Curso**: Técnico em Desenvolvimento de Sistemas integrado ao Ensino Médio — **ETEC de Hortolândia, 2025**  
 > Orientação: Prof. Priscila Batista Martins e Ralfe Della Croce Filho
@@ -11,12 +9,12 @@ Este repositório contém o código-fonte do **Aplicativo Mobile** do projeto GL
 
 ---
 
-## 💡 Sobre o Aplicativo Mobile
+## 💡 `Sobre o Aplicativo Mobile`
 
 O GLAUKS Mobile é a interface do usuário final do sistema. Ele transforma a experiência de uso da biblioteca ao fornecer um **Catálogo Digital** intuitivo e ferramentas de gestão pessoal de empréstimos e leitura.
 
 
-## 📱 Telas Principais
+## 📱 `Telas Principais`
 
 | Login | Cadastro | Início (Home) | Busca/Catálogo |
 | :---: | :---: | :---: | :---: |
@@ -28,7 +26,7 @@ O GLAUKS Mobile é a interface do usuário final do sistema. Ele transforma a ex
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ `Tecnologias Utilizadas`
 
 | Plataforma | Linguagem | Framework/Biblioteca | Banco de Dados |
 | :--- | :--- | :--- | :--- |
@@ -41,7 +39,7 @@ O GLAUKS Mobile é a interface do usuário final do sistema. Ele transforma a ex
 * `firebase`: Para autenticação e armazenamento de dados em tempo real.
 
 ---
-## 🔔 Funcionalidades
+## 🔔 `Funcionalidades`
 
 | Funcionalidade | Descrição |
 | :--- | :--- |
@@ -53,10 +51,11 @@ O GLAUKS Mobile é a interface do usuário final do sistema. Ele transforma a ex
 
 ---
 
-## 🏆 Conquistas do GLAUKS
+## 🏆 `Conquistas do GLAUKS`
 - Medalha de bronze na 13ª edição da PROJETEC 
 - Participação na 13ª Mostra de Ciências e Tecnologia do Instituto 3M
 
-## Autores
+## 👤 `Autores`
 *Emile Cristine Gomes Nogueira*
+
 *Julia de Melo Romo Franco*
