@@ -32,12 +32,6 @@ O GLAUKS Mobile é a interface do usuário final do sistema. Ele transforma a ex
 | :--- | :--- | :--- | :--- |
 | **Aplicativo Mobile** (Alunos) | JavaScript/TypeScript | React Native, Expo Go | Firebase |
 
-**Dependências Relevantes:**
-* `react-router-dom`: Para roteamento na aplicação web.
-* `styled-components`: Para estilização modular e eficiente.
-* `react-hook-form` / `zod`: Para gerenciamento e validação de formulários.
-* `firebase`: Para autenticação e armazenamento de dados em tempo real.
-
 ---
 ## 🔔 `Funcionalidades`
 
