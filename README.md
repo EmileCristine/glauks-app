@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# GLAUKS: Mapeamento e Gestão Digital para Biblioteca Escolar (MOBILE)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> **Trabalho de Conclusão de Curso**: Técnico em Desenvolvimento de Sistemas integrado ao Ensino Médio — **ETEC de Hortolândia, 2025**  
+> Orientação: Prof. Priscila Batista Martins e Ralfe Della Croce Filho
 
-## Get started
+Este repositório contém o código-fonte do **Aplicativo Mobile** do projeto GLAUKS. Desenvolvido para os alunos da ETEC de Hortolândia, o app tem como objetivo principal modernizar e facilitar a interação do estudante com o acervo físico da biblioteca, incentivando o hábito da leitura através de recursos digitais acessíveis.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 💡 Sobre o Aplicativo Mobile
 
-2. Start the app
+O GLAUKS Mobile é a interface do usuário final do sistema. Ele transforma a experiência de uso da biblioteca ao fornecer um **Catálogo Digital** intuitivo e ferramentas de gestão pessoal de empréstimos e leitura.
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+## 📱 Telas Principais
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Login | Cadastro | Início (Home) | Busca/Catálogo |
+| :---: | :---: | :---: | :---: |
+| <img src="telas/login.png" alt="Tela de Login" width="200"/> | <img src="telas/cadastro.png" alt="Tela de Cadastro de Usuário" width="200"/> | <img src="telas/inicio.png" alt="Tela Inicial e Sugestões" width="200"/> | <img src="telas/busca.png" alt="Tela de Busca e Filtros" width="200"/> |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Detalhes do Livro | Meus Empréstimos | Meus Livros (Lendo) | Perfil do Usuário |
+| :---: | :---: | :---: | :---: |
+| <img src="telas/detalhes.png" alt="Detalhes do livro com opção de reserva" width="200"/> | <img src="telas/emprestimos.png" alt="Lista de Empréstimos Ativos e Histórico" width="200"/> | <img src="telas/meuslivros.png" alt="Visão geral do progresso de leitura" width="200"/> | <img src="telas/perfil.png" alt="Tela de Perfil e Configurações" width="200"/> |
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠️ Tecnologias Utilizadas
 
-```bash
-npm run reset-project
-```
+| Plataforma | Linguagem | Framework/Biblioteca | Banco de Dados |
+| :--- | :--- | :--- | :--- |
+| **Aplicativo Mobile** (Alunos) | JavaScript/TypeScript | React Native, Expo Go | Firebase |
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Dependências Relevantes:**
+* `react-router-dom`: Para roteamento na aplicação web.
+* `styled-components`: Para estilização modular e eficiente.
+* `react-hook-form` / `zod`: Para gerenciamento e validação de formulários.
+* `firebase`: Para autenticação e armazenamento de dados em tempo real.
 
-## Learn more
+---
+## 🔔 Funcionalidades
 
-To learn more about developing your project with Expo, look at the following resources:
+| Funcionalidade | Descrição |
+| :--- | :--- |
+| **Catálogo Digital** | Consulta completa ao acervo com busca por Título, Autor, Gênero, etc. |
+| **Reserva Remota** | Possibilidade de reservar livros diretamente pelo app. |
+| **Renovação de Empréstimos** | Renovar prazos sem a necessidade de ir presencialmente. |
+| **Notificações** | Alertas sobre prazos de devolução, reservas disponíveis, etc. |
+| **Acompanhamento** | Histórico de leitura e progresso pessoal. |
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🏆 Conquistas do GLAUKS
+- Medalha de bronze na 13ª edição da PROJETEC 
+- Participação na 13ª Mostra de Ciências e Tecnologia do Instituto 3M
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Autores
+*Emile Cristine Gomes Nogueira*
+*Julia de Melo Romo Franco*
