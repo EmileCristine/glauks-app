@@ -13,7 +13,6 @@ export interface Author {
 
 export const searchAuthorPhoto = async (authorName: string): Promise<string> => {
   try {
-    // Tentar Wikipedia API
     const wikiResponse = await fetch(
       `https://pt.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(authorName)}`
     );
@@ -25,7 +24,6 @@ export const searchAuthorPhoto = async (authorName: string): Promise<string> => 
       }
     }
     
-    // Fallback: Google Books API
     const googleResponse = await fetch(
       `https://www.googleapis.com/books/v1/volumes?q=inauthor:"${encodeURIComponent(authorName)}"&maxResults=1`
     );
@@ -37,7 +35,6 @@ export const searchAuthorPhoto = async (authorName: string): Promise<string> => 
       }
     }
     
-    // Último fallback: avatar personalizado
     return `https://ui-avatars.com/api/?name=${encodeURIComponent(authorName)}&size=200&background=01babf&color=fff&bold=true`;
     
   } catch (error) {
